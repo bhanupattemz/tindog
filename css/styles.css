@@ -1,0 +1,158 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+/* background-color */
+.color-white {
+    background-color: aliceblue;
+}
+
+.color-yellow {
+    background-color: #FAC213;
+    color: #fff;
+}
+
+/* headings */
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p {
+    color: #7D9D9C;
+    font-size: 1.2rem;
+}
+
+/* containers */
+.container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* navigation bar */
+.navbar {
+    text-align: left;
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Download buttons */
+.Download-buttons {
+    margin: 3% 5% 3% 0%;
+}
+
+/* title-image */
+.title-image {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* features */
+#features {
+    padding: 7% 15%;
+    position: relative;
+}
+
+.features-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #F7EC09;
+    padding-bottom: 4%;
+}
+.icon:hover {
+    color: #FAC213;
+}
+
+/* Testimonials-section */
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press */
+
+#press {
+
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.testimonials {
+    padding: 7% 15%;
+}
+
+/* pricing section */
+.pricing-deck {
+    padding: 2% 15%;
+}
+
+#pricing {
+
+    padding: 5%;
+}
+
+/* cta */
+
+#cta {
+    padding: 3%;
+    line-height: 2;
+}
+
+#cta h3 {
+    font-size: 3.5rem;
+    padding-bottom: 2%;
+}
+
+
+/* footer */
+#footer {
+    padding: 5% 15%;
+}
+
+#footer p {
+    font-size: 1.2rem;
+}
+
+#footer i {
+    padding: 0% 1% 3% 1%;
+}
+
+
+@media (max-width:1070px) {
+    .container-fluid {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+}
